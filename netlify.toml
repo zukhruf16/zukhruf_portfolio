@@ -5,10 +5,9 @@
 [build.environment]
   NODE_VERSION = "20"
 
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+# No SPA catch-all redirect — this site uses section anchors, not client routes.
+# A /* → index.html rewrite was returning HTML for missing hashed assets (404s),
+# which inflated Netlify error/slow-load symptoms after redeploys.
 
 # Long-cache hashed Vite assets
 [[headers]]
