@@ -195,7 +195,7 @@ Personal portfolio for Zukhruf Toufeeq. The code is provided as-is for personal 
 
 - 📧 [EMAIL_ADDRESS]
 - 💼 [LinkedIn]()
-- 🐙 [GitHub]()
+- 🐙 [GitHub](https://github.com/zukhruf16)
 
 
 ---

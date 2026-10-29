@@ -19,7 +19,7 @@ export const personal = {
   phoneHref: "",
   email: "",
   linkedin: "",
-  github: "",
+  github: "https://github.com/zukhruf16",
   summary:
     "Motivated and detail-oriented Computer Science undergraduate with hands-on experience in full-stack web development, AI-powered application development, and backend engineering. Skilled in building scalable web applications using FastAPI, React.js, Python, JavaScript, and PostgreSQL. Experienced with modern Artificial Intelligence technologies including Large Language Models (LLMs), LangChain, Retrieval-Augmented Generation (RAG), Agentic AI, Prompt Engineering, and AI Chatbots. Passionate about software engineering, artificial intelligence, problem-solving, and developing innovative, user-focused applications.",
 };
