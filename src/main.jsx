@@ -1,12 +1,17 @@
-import { StrictMode } from "react";
+import { StrictMode, lazy, Suspense } from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
 import "./globals.css";
-import { Toaster } from "sonner";
+
+const Toaster = lazy(() =>
+  import("sonner").then((m) => ({ default: m.Toaster }))
+);
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <App />
-    <Toaster theme="dark" position="bottom-right" richColors />
+    <Suspense fallback={null}>
+      <Toaster theme="dark" position="bottom-right" richColors />
+    </Suspense>
   </StrictMode>
 );

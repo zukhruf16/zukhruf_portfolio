@@ -1,13 +1,15 @@
+import { lazy, Suspense } from "react";
 import Navbar from "@/components/portfolio/navbar";
 import Hero from "@/components/portfolio/hero";
-import About from "@/components/portfolio/about";
-import Skills from "@/components/portfolio/skills";
-import Education from "@/components/portfolio/education";
-import Experience from "@/components/portfolio/experience";
-import Projects from "@/components/portfolio/projects";
-import Recognition from "@/components/portfolio/recognition";
-import Contact from "@/components/portfolio/contact";
 import Footer from "@/components/portfolio/footer";
+
+const About = lazy(() => import("@/components/portfolio/about"));
+const Skills = lazy(() => import("@/components/portfolio/skills"));
+const Education = lazy(() => import("@/components/portfolio/education"));
+const Experience = lazy(() => import("@/components/portfolio/experience"));
+const Projects = lazy(() => import("@/components/portfolio/projects"));
+const Recognition = lazy(() => import("@/components/portfolio/recognition"));
+const Contact = lazy(() => import("@/components/portfolio/contact"));
 
 export default function App() {
   return (
@@ -21,13 +23,15 @@ export default function App() {
 
       <main className="flex-1">
         <Hero />
-        <About />
-        <Skills />
-        <Education />
-        <Experience />
-        <Projects />
-        <Recognition />
-        <Contact />
+        <Suspense fallback={null}>
+          <About />
+          <Skills />
+          <Education />
+          <Experience />
+          <Projects />
+          <Recognition />
+          <Contact />
+        </Suspense>
       </main>
 
       <Footer />

@@ -76,7 +76,7 @@ portfolio/
 ├── eslint.config.js           # ESLint flat config
 ├── package.json
 ├── public/
-│   └── favicon.svg            # ST monogram favicon
+│   └── favicon.svg            # ZT monogram favicon
 └── src/
     ├── main.jsx               # React entry — mounts App + Toaster
     ├── App.jsx                # Composes all portfolio sections
