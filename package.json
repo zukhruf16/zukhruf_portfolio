@@ -1,9 +1,9 @@
 {
-  "name": "zukhruftoufeeq-portfolio",
+  "name": "zukhruftaufeeq-portfolio",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "Modern responsive developer portfolio for Zukhruf Toufeeq — built with Vite + React + Tailwind CSS.",
+  "description": "Modern responsive developer portfolio for Zukhruf Taufeeq — built with Vite + React + Tailwind CSS.",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

@@ -32,14 +32,14 @@ const contactItems = [
   },
   {
     label: "LinkedIn",
-    value: "zukhruftoufeeq",
+    value: "zukhruf-taufeeq",
     href: personal.linkedin,
     icon: Linkedin,
     accent: "violet",
   },
   {
     label: "GitHub",
-    value: "zukhruftoufeeq",
+    value: "zukhruf16",
     href: personal.github,
     icon: Github,
     accent: "emerald",

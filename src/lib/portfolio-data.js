@@ -1,10 +1,10 @@
-// Centralized portfolio data for Zukhruf Toufeeq.
+// Centralized portfolio data for Zukhruf Taufeeq.
 // Edit this file to update any content on the portfolio.
 
 export const personal = {
-  name: "Zukhruf Toufeeq",
+  name: "Zukhruf Taufeeq",
   firstName: "Zukhruf",
-  lastName: "Toufeeq",
+  lastName: "Taufeeq",
   initials: "ZT",
   roles: [
     "Full-Stack Developer",

@@ -225,7 +225,7 @@ export default function Hero() {
                     {"  "}
                     <span className="text-emerald-300">name</span>
                     <span className="text-muted-foreground">:</span>{" "}
-                    <span className="text-amber-300">&apos;Zukhruf Toufeeq&apos;</span>
+                    <span className="text-amber-300">&apos;Zukhruf Taufeeq&apos;</span>
                     <span className="text-muted-foreground">,</span>
                     {"\n"}
                     {"  "}

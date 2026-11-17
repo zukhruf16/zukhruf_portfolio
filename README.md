@@ -1,6 +1,6 @@
-# Zukhruf Toufeeq — Portfolio Website
+# Zukhruf Taufeeq — Portfolio Website
 
-This is my **Zukhruf Toufeeq** portfolio, a Computer Science undergraduate and full-stack / AI developer. Built with **Vite + React (JavaScript/JSX)**, Tailwind CSS 4, and Framer Motion. 
+This is my **Zukhruf Taufeeq** portfolio, a Computer Science undergraduate and full-stack / AI developer. Built with **Vite + React (JavaScript/JSX)**, Tailwind CSS 4, and Framer Motion. 
 
 ## Features
 
@@ -149,7 +149,7 @@ The hero currently uses a decorative code card on the right. To swap in a real p
    ```jsx
    <img
      src="/profile.jpg"
-     alt="Zukhruf Toufeeq"
+     alt="Zukhruf Taufeeq"
      className="relative rounded-2xl shadow-2xl w-full max-w-sm mx-auto"
    />
    ```
@@ -185,13 +185,13 @@ For GitHub Pages, set `base: "/your-repo-name/"` in `vite.config.js` before buil
 
 ## 📄 License
 
-Personal portfolio for Zukhruf Toufeeq. The code is provided as-is for personal use. Please don't reuse the personal information, project descriptions, or certifications without permission.
+Personal portfolio for Zukhruf Taufeeq. The code is provided as-is for personal use. Please don't reuse the personal information, project descriptions, or certifications without permission.
 
 ---
 
 ## 👤 About
 
-**Zukhruf Toufeeq** — BS Computer Science undergraduate at Hajvery University Lahore, passionate about full-stack web development and AI-powered applications.
+**Zukhruf Taufeeq** — BS Computer Science undergraduate at Hajvery University Lahore, passionate about full-stack web development and AI-powered applications.
 
 - 📧 [EMAIL_ADDRESS]
 - 💼 [LinkedIn]()
