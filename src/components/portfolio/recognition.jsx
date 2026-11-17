@@ -3,7 +3,6 @@
 import { motion } from "framer-motion";
 import {
   Award,
-  ExternalLink,
   BadgeCheck,
   GraduationCap,
   Sparkles,
@@ -78,17 +77,6 @@ export default function Recognition() {
                             {cert.credentialId}
                           </span>
                         </p>
-                      )}
-                      {cert.verifyUrl && (
-                        <a
-                          href={cert.verifyUrl}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="mt-3 inline-flex items-center gap-1.5 text-xs font-semibold text-[var(--a)] hover:underline"
-                        >
-                          Verify Certificate
-                          <ExternalLink className="h-3 w-3" />
-                        </a>
                       )}
                     </div>
                   </div>

@@ -218,7 +218,6 @@ export const certifications = [
     issuer: "Certiport (A Pearson VUE Business)",
     date: "June 2026",
     credentialId: "w9ynx-H94X",
-    verifyUrl: "https://drive.google.com/file/d/1BWRc-JbmBU392Q0z2ul9_JQ16kUETZw3/view?usp=drive_link",
     accent: "amber",
   },
   {
@@ -226,7 +225,6 @@ export const certifications = [
     issuer: "Pitman Training",
     date: "2023",
     credentialId: null,
-    verifyUrl: "https://drive.google.com/file/d/1o2Nu1ZxScC13O-wOJJYUDMGoM7a_JSLP/view?usp=drive_link",
     accent: "cyan",
   },
   {
